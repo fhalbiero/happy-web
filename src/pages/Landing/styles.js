@@ -12,7 +12,7 @@ export const Container = styled.div`
 
     .content-wrapper {
 
-        background: url('../../images/landing.svg') no-repeat 80% center;
+        background: url('../../images/landing.svg') no-repeat 90% center;
         position: relative;
 
         width: 100%;

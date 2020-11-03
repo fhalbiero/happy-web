@@ -67,6 +67,42 @@ export const Container = styled.div`
             background-color: #16d6eb;
         }
     }
+
+    .map-popup {
+
+        .leaflet-popup-content-wrapper {
+            background-color: rgba(255, 255, 255, .9);
+            box-shadow: none;
+            border-radius: 20px;
+        }
+
+        .leaflet-popup-content {
+           color: #0089a5;
+           font-size: 22px;
+           font-weight: bold;
+           margin: 8px 12px;
+
+           display: flex;
+           justify-content: space-between; 
+           align-items: center;
+
+           a {
+               width: 40px;
+               height: 40px;
+               background-color: #15c3d6;
+               box-shadow: 17px 27px 41px rgba(23, 142, 166, .16);
+               border-radius: 12px;
+
+               display: flex;
+               justify-content: center; 
+               align-items: center;
+           }
+        }
+
+        .leaflet-popup-tip-container {
+            display: none;
+        }
+    }
     
 
 
